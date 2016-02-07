@@ -69,6 +69,7 @@
 #import "AudibleStrategy.h"
 #import "BBCRadioStrategy.h"
 #import "TwitchMediaStrategy.h"
+#import "ListenOnRepeatStrategy.h"
 
 @interface MediaStrategyRegistry ()
 @property (nonatomic, strong) NSMutableDictionary *registeredCache;
@@ -202,6 +203,7 @@
                        [KollektFmStrategy new],
                        [LastFmStrategy new],
                        [LeTournedisqueStrategy new],
+                       [ListenOnRepeatStrategy new],
                        [LogitechMediaServerStrategy new],
                        [MixCloudStrategy new],
                        [MusicForProgrammingStrategy new],

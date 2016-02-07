@@ -52,6 +52,8 @@
 		<true/>
 		<key>Logitech Media Server</key>
 		<true/>
+		<key>ListenOnRepeat</key>
+		<true/>
 		<key>MixCloud</key>
 		<true/>
 		<key>MusicForProgramming</key>
